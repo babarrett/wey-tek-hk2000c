@@ -6,7 +6,32 @@ More readme to follow, just getting started with a todo list so far.
 
 * Bought my own: WEY HK2000C
 * Connector Box Va
-* EBS and Dealing add-on modules (10 keys each arranged with 2,2,4,2 keys per row.)
+* EBS and Dealing add-on modules (10 keys each arranged with 2,2,4, and 2 keys
+per row.) The keyboard is connected to each plug-in module with a 10 wire connector. 
+```
+        Dealing 3000:
+                     |   Cancel
+        _Interupt____|___Orders_________
+                     |
+        _Contact_____|___Accept_________
+        CMD | R/Up   |  R/Dn   | Inst
+        Bid_|_Offer__|__I-Deal_|_Cancel_
+           Zone      |       FMT
+        ___YOURS_____|_______MINE_______
+    
+        CDR/EBS Quotron:
+    
+                     |
+        _Sell________|___Buy____________
+                     |
+        _Bid_________|___Offer__________
+        Sell| North  |  Clear  | Buy
+        Reg_|_ing____|__All____|_Reg____
+           Off       |    
+        ___All_______|___One____________
+
+```
+
 * The keyboards are preconfigured to work with six PC workstations on ports
 USB1–USB6.
 * Ebay URL: https://www.ebay.com/itm/HK2000C-KEYBOARD-kit-refurbished/172995887269
@@ -23,24 +48,44 @@ macro pad for the left side of the keyboard. Quite a ways off.
 
 ## Things to find out / do, learning about this keyboard:
 
-* Install usb mouse in"Host" (S6) port and see if it's signals are passed onto the PCs.
+* Install usb mouse in "Host" (S6) port and see if it's signals are passed onto the PCs.
 * Plug a shared (PS/2) mouse directly into the Kbd. Looks like that will get
 forwarded to the active workstation, correct? **TBD** Interfaces include:
     * Serial (docs say: "RS232 compatible interface and MS-Mouse protocol")
     * PS/2
-    * USB (maybe)
-* Do keys/scan codes sent for the "non-standard/PC" keys? For example the color
-add-in modules, F13-F24, Attach, ... **No**, not when in PC emulation mode.
+    * USB (yes, for HK2000C)
+* In PC emulation mode, are keys/scan-codes sent for the "non-standard/PC" keys?
+For example the color add-in modules, F13-F24, Attach, ... **No**, not when in
+PC emulation mode.
 * Re-test for extended scan-codes for other emulations. (Sun, Trading devices, etc.)
-
+* The keyboard is connected to each plug-in module with a 10 wire connector.
+This supports up to 16 keys. There are 4 diodes on the board (or, less likely in
+keyboard) that determine the plog-in module type. 16 in total.
+* Determine the use of these pins:
+```
+        Sample #s   Use
+        ---------   ------------------------------------------------
+        1-5:        5 bit to 32 decoder
+                        4:  for the ID sensors, yields x00 to x0F IDs
+                        16: for the (up to) 16 keys
+        6:          Sense line for all of the above.
+        7:          Power
+        8:          Ground
+        9-10:       Spare?
+    
+        1-4:        for the ID sensors
+        5-8:        4 bit to 16 decoder
+        9:          Sense line
+        10:         ?
+```
 
 ## To buy:
 
 * (Have, somewhere): 2 standard PC power plugs
 * (Have, somewhere): 1 more powerstrip to power off switch for the 2nd kbd.
-* Amazon: 6? short USB cables for simultaneous access to the 6 WS ports on a USB
-hub. Possible max of 12, TBD.
-* Sent -- Email to Andreutech - Can I get a blank too?
+* √ Amazon: 6 short USB cables for simultaneous access to the 6 WS ports on a USB
+hub. Possible max of 12 in total later, TBD.
+* Sent -- Email to Andreutech - Can I get a blank too? (No reply)
 * (Future) Carrying case for keyboard(s?)
 
 ## To Try
