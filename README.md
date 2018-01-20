@@ -119,3 +119,35 @@ installed.
 * Make a 10 to 16-key "side-car" for the left side if the case (G80-9009 has 14 on
 left that the Wey does not.)
 
+## Owners:
+
+### Deskthority Wey MK06:
+```
+  https://deskthority.net/photos-f62/wey-technology-mk06-t15102.html
+  Wodan
+  Chyros
+  ting
+  Orpheo
+```
+
+### Geekhack Wey MK06:
+
+```
+  Samuelll101
+  dorkvader (HK2000C since 2014)
+  xavierblak (HK2000C)
+  Photoelectric (HK2000C)
+  
+```
+
+3M Cable Connectors: 
+  http://www.newark.com/3m/10136-3000pe/mini-d-ribbon-conn-plug-36pos/dp/69K7226
+
+Power supply connector:
+  https://www.digikey.com/product-detail/en/PDP-30/CP-7330-ND/2119403
+
+Drivers:
+  Controller box: are Torx T6. I have a spare I can send you if you need. They
+aren't even pentalobe, torxplus or securitorx(harder to get).
+
+Keyboard itself needs a T6 to open up and a T8 to get the controller off.
