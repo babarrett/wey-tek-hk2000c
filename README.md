@@ -1,10 +1,10 @@
 # WEY-TEK-HK2000C
 
-More readme to follow, just getting started with a todo list so far.
+Starting with a todo list for now.
 
 ## Email to Photoelectric:
 
-* Bought my own: WEY HK2000C
+* Bought my own: WEY HK2000C. To arrive this week.
 * Connector Box Va
 * EBS and Dealing add-on modules (10 keys each arranged with 2,2,4, and 2 keys
 per row.) The keyboard is connected to each plug-in module with a 10 wire connector. 
@@ -20,7 +20,6 @@ per row.) The keyboard is connected to each plug-in module with a 10 wire connec
         ___YOURS_____|_______MINE_______
     
         CDR/EBS Quotron:
-    
                      |
         _Sell________|___Buy____________
                      |
@@ -38,12 +37,15 @@ USB1–USB6.
 * I tried again signing up for an account to access tech documents at
 weytec.com. This time I heard back. I got the firmware download application from
 WEY Tec, happy to send you a copy. (Haven't tried it out yet. Don't know which
-Windows OS it works with.
+Windows OS it works with.)
 * I still haven't seen a doc on the interface to the add-on modules. Now I'm
 (mildly) considering leaving the 16 button add-on in place (for looks and to
 avoid a big hole), but disconnecting it. Then simulate it using an outboard
 macro pad for the left side of the keyboard. Quite a ways off.
 * I'll try emulation modes other than "PC" to see if I can get more scan codes.
+* Cable from keyboard to controller box, listed as a "half pitched centronics
+cable" on page 18/49 of the manual. http://www.pchcables.com/hhaceprca.html
+* Here's the English manual: https://drive.google.com/open?id=0B3l12...3d4dU1MSjQ
 
 
 ## Things to find out / do, learning about this keyboard:
@@ -56,12 +58,14 @@ forwarded to the active workstation, correct? **TBD** Interfaces include:
     * USB (yes, for HK2000C)
 * In PC emulation mode, are keys/scan-codes sent for the "non-standard/PC" keys?
 For example the color add-in modules, F13-F24, Attach, ... **No**, not when in
-PC emulation mode.
+PC emulation mode. **TBD** What about other emulation modes?
+* The Wey MK06 has a test mode that will display (on the keyboard) the scan code
+resulting from pressing each key on the plug-in modules.
 * Re-test for extended scan-codes for other emulations. (Sun, Trading devices, etc.)
 * The keyboard is connected to each plug-in module with a 10 wire connector.
 This supports up to 16 keys. There are 4 diodes on the board (or, less likely in
 keyboard) that determine the plog-in module type. 16 in total.
-* Determine the use of these pins:
+* Determine the use of these pins, here are a couple theoretical possibilities:
 ```
         Sample #s   Use
         ---------   ------------------------------------------------
@@ -86,6 +90,7 @@ keyboard) that determine the plog-in module type. 16 in total.
 * √ Amazon: 6 short USB cables for simultaneous access to the 6 WS ports on a USB
 hub. Possible max of 12 in total later, TBD.
 * Sent -- Email to Andreutech - Can I get a blank too? (No reply)
+* Hsau's USB-to-USB adapter
 * (Future) Carrying case for keyboard(s?)
 
 ## To Try
