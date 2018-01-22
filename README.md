@@ -45,7 +45,8 @@ macro pad for the left side of the keyboard. Quite a ways off.
 * I'll try emulation modes other than "PC" to see if I can get more scan codes.
 * Cable from keyboard to controller box, listed as a "half pitched centronics
 cable" on page 18/49 of the manual. http://www.pchcables.com/hhaceprca.html
-* Here's the English manual: https://drive.google.com/open?id=0B3l12...3d4dU1MSjQ
+* Here's the English manual of the MK06: 
+https://drive.google.com/open?id=0B3l12...3d4dU1MSjQ
 
 
 ## Things to find out / do, learning about this keyboard:
@@ -65,6 +66,24 @@ resulting from pressing each key on the plug-in modules.
 * The keyboard is connected to each plug-in module with a 10 wire connector.
 This supports up to 16 keys. There are 4 diodes on the board (or, less likely in
 keyboard) that determine the plog-in module type. 16 in total.
+
+* Connect box, USB to hub, power cord, power strip
+* USB A to USB A for host 
+* Remove sw. Karabiner, Hammerspoon, sticky keys. 
+* Mac = USA Kbd 
+* PC emu on kbd
+* Record (103?) scan codes using copy of G80-9000 layout
+* Switch to USB 2-5, try again
+* Switch to host (USB 6), try again
+* Change to EMU #1, retry work station scan codes. 
+* See if there is a scan  code test mode.
+* Change back, save settings in box
+* Repeat with EMU #2, itterate
+* Swap kbds, repeat
+* Swap connect boxes
+
+
+
 * Determine the use of these pins, here are a couple theoretical possibilities:
 ```
         Sample #s   Use
@@ -87,11 +106,12 @@ keyboard) that determine the plog-in module type. 16 in total.
 
 * (Have, somewhere): 2 standard PC power plugs
 * (Have, somewhere): 1 more powerstrip to power off switch for the 2nd kbd.
+* (Have, somewhere): At least one USB-A to USB-B
 * √ Amazon: 6 short USB cables for simultaneous access to the 6 WS ports on a USB
 hub. Possible max of 12 in total later, TBD.
 * Sent -- Email to Andreutech - Can I get a blank too? (No reply)
 * Hsau's USB-to-USB adapter
-* (Future) Carrying case for keyboard(s?)
+* (Future) Carrying case for keyboard
 
 ## To Try
 
@@ -122,7 +142,7 @@ installed.
 ## Future:
 
 * Make a 10 to 16-key "side-car" for the left side if the case (G80-9009 has 14 on
-left that the Wey does not.)
+left that the Wey does not.) KLE: http://www.keyboard-layout-editor.com/#/gists/ed5696678d6d7faf714954512a94756d
 
 ## Owners:
 
@@ -135,10 +155,10 @@ left that the Wey does not.)
   Orpheo
 ```
 
-### Geekhack Wey MK06:
+### Geekhack:
 
 ```
-  Samuelll101
+  Samuelll101 (MK06)
   dorkvader (HK2000C since 2014)
   xavierblak (HK2000C)
   Photoelectric (HK2000C)
