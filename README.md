@@ -51,40 +51,40 @@ https://drive.google.com/open?id=0B3l12...3d4dU1MSjQ
 
 ## Things to find out / do, learning about this keyboard:
 
-* Install usb mouse in "Host" (S6) port and see if it's signals are passed onto the PCs.
-* Plug a shared (PS/2) mouse directly into the Kbd. Looks like that will get
-forwarded to the active workstation, correct? **TBD** Interfaces include:
-    * Serial (docs say: "RS232 compatible interface and MS-Mouse protocol")
-    * PS/2
-    * USB (yes, for HK2000C)
-* In PC emulation mode, are keys/scan-codes sent for the "non-standard/PC" keys?
-For example the color add-in modules, F13-F24, Attach, ... **No**, not when in
-PC emulation mode. **TBD** What about other emulation modes?
-* The Wey MK06 has a test mode that will display (on the keyboard) the scan code
-resulting from pressing each key on the plug-in modules.
-* Re-test for extended scan-codes for other emulations. (Sun, Trading devices, etc.)
-* The keyboard is connected to each plug-in module with a 10 wire connector.
-This supports up to 16 keys. There are 4 diodes on the board (or, less likely in
-keyboard) that determine the plog-in module type. 16 in total.
-
 * Connect box, USB to hub, power cord, power strip
 * USB A to USB A for host 
 * Remove sw. Karabiner, Hammerspoon, sticky keys. 
 * Mac = USA Kbd 
 * PC emu on kbd
 * Record (103?) scan codes using copy of G80-9000 layout
+* In PC emulation mode, are keys/scan-codes sent for the "non-standard/PC" keys?
+For example the color add-in modules, F13-F24, Attach, ... **No**, not when in
+PC emulation mode. **TBD** What about other emulation modes?
+* Test lock window behavior: Caps, Num, Scroll
+* Re-test for extended scan-codes for other emulations. (Sun, Trading devices, etc.)
+* (The Wey MK06 has a test mode that will display (on the keyboard) the scan code
+resulting from pressing each key on the plug-in modules.)
 * Switch to USB 2-5, try again
 * Switch to host (USB 6), try again
 * Change to EMU #1, retry work station scan codes. 
 * See if there is a scan  code test mode.
-* Change back, save settings in box
-* Repeat with EMU #2, itterate
+* Load & save set-up to/from controller. Should be built in. Should be easy.
+    * Change back, save settings in box
+* Repeat with EMU #2, iterate
+* Install USB mouse in "Host" (S6) port and see if it's signals are passed onto the PCs.
+* Plug a shared (PS/2) mouse directly into the Kbd. Looks like that will get
+forwarded to the active workstation, correct? **TBD** Interfaces include:
+    * Serial (docs say: "RS232 compatible interface and MS-Mouse protocol")
+    * PS/2
+    * USB (yes, for HK2000C)
+* The keyboard is connected to each plug-in module with a 10 wire connector.
+This supports up to 16 keys. There are 4 diodes on the board (or, less likely in
+keyboard) that determine the plug-in module type. 16 in total.
 * Swap kbds, repeat
 * Swap connect boxes
 
 
-
-* Determine the use of these pins, here are a couple theoretical possibilities:
+* Determine the use of these  10pins, here are a couple theoretical possibilities:
 ```
         Sample #s   Use
         ---------   ------------------------------------------------
@@ -115,7 +115,6 @@ hub. Possible max of 12 in total later, TBD.
 
 ## To Try
 
-* Load & save set-up to/from controller. Should be built in. Should be easy.
 
 
 ## To research / learn:
