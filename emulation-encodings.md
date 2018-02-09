@@ -44,9 +44,8 @@ CDR/EBS Quotron:
 
 Scan codes generated:
 
-|Emulation:   | PC    | SUN   |DEC EMU| D3000 | BL O  |  EBS  | D2000 | D2000 |RT EMU |WIN NT   | PC TERM |
+|Emulation:<br>Key:   | PC<br>EMU    | SUN<br>EMU   |DEC EMU<br>!Alpha| D3000<br>EMU | BL O<br>EMU  |  EBS<br>EMU| D2000<br>EMU | D2000<br>1/2 EMU |RT EMU<br>!EUREX|WIN NT<br>EMU !GL-TR   | PC TERM<br> |
 |-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---------|---------|
-|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU GL-TR| EMU     |
 |Sell         |       |       |       |   *   |       |       |   *   |  *    |       |         |         |
 |Buy          |       |       |       |       |       |       |       |       |       |         |         |
 |Bid          |       |       |       |       |       |       |       |       |       |         |         |
@@ -62,7 +61,7 @@ Scan codes generated:
 
 |Emulation:   | PC    | SUN   |DEC EMU| D3000 | BL O  |  EBS  | D2000 |D2000/ |RT EMU |WIN NT    | PC TERM |
 |-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|----------|---------|
-|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU !GL-TR| EMU     |
+|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX || EMU     |
 |F1           | F1    | F1    | F1   ±|   *   | F1   ±| Esc   |   *   |  *    |  F1  ±|    F1  ± | F1    ± |
 |F2           | :     | :     | :    ±|       | :     | PgDn ±|       |       |   :   |     :    |         |
 |F3           |       |       |      ±|       |       | F1   ±|       |       |       |          |         |
@@ -93,17 +92,17 @@ Scan codes generated:
 |Pause        | F15   | F15   |       |       | F15  ±| F15  ±|       |       |       |          |         |
 |Ins          | Help  | Help  |Help  †|       | Help §| Help †|       |       |       |          |         |
 
-! = + modifier 0x020102
-. = + modifier 0x100108
-§ = + modifier 0x200100
-# = + modifier 0x300108
-^ = + modifier 0x040101
-± = + modifier 0x800100
-† = + modifier 0xc00100
+    ! = + modifier 0x020102
+    . = + modifier 0x100108
+    § = + modifier 0x200100
+    # = + modifier 0x300108
+    ^ = + modifier 0x040101
+    ± = + modifier 0x800100
+    † = + modifier 0xc00100
 
 
-PC EMU --     F1-F12 keys labeled on LCD
-D3000 EMU --  No F keys work. No other keys on the kbd work. No plug-in module keys work.
-BL O EMU --   F1=Help, F2=Govt, = Corp, =Mtge, =MMkt, =Muni, =PFD, =Eqty, =CMDT, =Indx, F11=CRNC, F12=Clnt
-D2000 EMU --  No F keys work. No other keys on the kbd work. No plug-in module keys work.
+    PC EMU --     F1-F12 keys labeled on LCD
+    D3000 EMU --  No F keys work. No other keys on the kbd work. No plug-in module keys work.
+    BL O EMU --   F1=Help, F2=Govt, = Corp, =Mtge, =MMkt, =Muni, =PFD, =Eqty, =CMDT, =Indx, F11=CRNC, F12=Clnt
+    D2000 EMU --  No F keys work. No other keys on the kbd work. No plug-in module keys work.
 
