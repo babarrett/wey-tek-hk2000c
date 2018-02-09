@@ -15,8 +15,8 @@
 Scan codes generated:
 
 |Emulation:   | PC    | SUN   |DEC EMU| D3000 | D2000 |RT EMU |WIN NT   | PC TERM |
-|Key:         | EMU   | EMU   |!Alpha | EMU   |1/2 EMU|!EUREX |EMU GL-TR| EMU     |
 |-------------|-------|-------|-------|-------|-------|-------|---------|---------|
+|Key:         | EMU   | EMU   |!Alpha | EMU   |1/2 EMU|!EUREX |EMU GL-TR| EMU     |
 |Interrupt    |       |       |       |       |       |       |         |         |
 |Cancel Orders|       |       |       |       |       |       |         |         |
 |Contact      |       |       |       |       |       |       |         |         |
@@ -45,8 +45,8 @@ CDR/EBS Quotron:
 Scan codes generated:
 
 |Emulation:   | PC    | SUN   |DEC EMU| D3000 | BL O  |  EBS  | D2000 | D2000 |RT EMU |WIN NT   | PC TERM |
-|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU GL-TR| EMU     |
 |-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|---------|---------|
+|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU GL-TR| EMU     |
 |Sell         |       |       |       |   *   |       |       |   *   |  *    |       |         |         |
 |Buy          |       |       |       |       |       |       |       |       |       |         |         |
 |Bid          |       |       |       |       |       |       |       |       |       |         |         |
@@ -61,8 +61,8 @@ Scan codes generated:
 
 
 |Emulation:   | PC    | SUN   |DEC EMU| D3000 | BL O  |  EBS  | D2000 |D2000/ |RT EMU |WIN NT    | PC TERM |
-|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU !GL-TR| EMU     |
 |-------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|----------|---------|
+|Key:         | EMU   | EMU   |!Alpha | EMU   | EMU   |  EMU  | EMU   |1/2 EMU|!EUREX |EMU !GL-TR| EMU     |
 |F1           | F1    | F1    | F1   ±|   *   | F1   ±| Esc   |   *   |  *    |  F1  ±|    F1  ± | F1    ± |
 |F2           | :     | :     | :    ±|       | :     | PgDn ±|       |       |   :   |     :    |         |
 |F3           |       |       |      ±|       |       | F1   ±|       |       |       |          |         |
